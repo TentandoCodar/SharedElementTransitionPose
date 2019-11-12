@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  animation: Animate 1000ms;
+}
+
+
+body {
+  background-color: #282c34;
+}
+
+@keyframes Animate {
+  from {
+    opacity:  0;
+  }
+  to {
+    opacity:  1;
+  }
 }
 
 .App-logo {
@@ -19,4 +34,38 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Title {
+  color:#fff;
+}
+
+.Card {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+}
+
+.ImageDiv {
+  height: 100%;
+}
+
+.CardImage {
+  width: 160px;
+  height: 100%;
+  
+}
+
+.CardTexts {
+  text-align: center;
+  width: 100%;
+}
+
+.Objective {
+  font-size: 18px;
+  font-weight: bold;
 }
